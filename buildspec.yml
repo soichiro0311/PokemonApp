@@ -4,6 +4,11 @@ phases:
   build:
     commands:
       - ./gradlew bootjar
+      - ls
+      - cd build
+      - ls
+      - cd libs
+      - ls
  
 artifacts:
   files:
