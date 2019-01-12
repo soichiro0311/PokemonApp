@@ -3,8 +3,10 @@ version: 0.1
 phases:
   build:
     commands:
-      - gradle build -x test
+      - ls
+      - chmod 775 gradlew
+      - ./gradlew bootjar
  
 artifacts:
   files:
-    - ./build/libs/プロジェクト名-0.0.1-SNAPSHOT.jar
+    - build/libs/*.jar
