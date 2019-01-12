@@ -3,6 +3,7 @@ version: 0.1
 phases:
   build:
     commands:
+      - ls
       - ./gradlew bootjar
  
 artifacts:
