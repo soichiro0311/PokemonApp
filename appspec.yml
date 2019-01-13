@@ -5,3 +5,7 @@ files:
   - source: build/libs/src-0.0.1-SNAPSHOT.jar
     destination: /opt
     overwrite: yes
+  
+  - source: src/main/resources/static/pokemon_data.json
+    destination: /opt/src/main/resources/static
+    overwrite: yes
