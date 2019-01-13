@@ -1,4 +1,4 @@
 files:
   - source: build/libs/*.jar
-    destination: /opt/app
+    destination: /opt
     overwrite: yes
